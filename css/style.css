@@ -27,3 +27,9 @@
 .fab {
     padding: .3em;
 }
+
+.under-construction {
+    background-color: #1e1d1d;
+    color: #ff9900;
+    margin: .5em;
+}
