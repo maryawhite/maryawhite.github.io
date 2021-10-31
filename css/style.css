@@ -33,3 +33,20 @@
     color: #ff9900;
     margin: .5em;
 }
+
+.small-img {
+    width: 250px;
+}
+
+.lg-img {
+    width: 100%;
+}
+
+#headshot img {
+    width: 150px;
+}
+
+.jumbotron {
+    background-color: #cbcbcb;
+    padding: 15px;
+}
