@@ -13,7 +13,7 @@
     <title>Mary A. White, Software Developer</title>
 </head>
 <body>
-<div id="page-container" class="container">
+<div id="page-container">
     <div id="content-wrap">
         <header>
             <div class="jumbotron jumbotron-fluid text-center">
@@ -29,13 +29,80 @@
         <main>
             <section class="about-me">
                 <h1 class="text-center">About Me</h1>
-                <p>Effective software developer with previous experience in higher education and a knack for optimizing processes and developing people. A passion for problem-solving and using technology to automate repetitive tasks and improve productivity led to my interest in web development.</p>
+                <p class="pl-4, pr-4">Effective software developer with previous experience in higher education and a knack for optimizing processes. A passion for problem-solving and using technology to automate repetitive tasks and improve productivity led to my interest in web development. I look forward to combining my past work experience with my programming knowledge as a full stack web developer. </p>
             </section>
         </main>
         <section class="projects"><h1 class="text-center mb-0">Projects</h1></section>
-        <section id="proj-a" class="projects">
+        <section class="projects">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="d-block">
+                    <h2>Carlister Project</h2>
+                    <p>Carlister is similar to Craigslist or OfferUp and is a full stack Java application with CRUD functionality. Visitors can view ads and create an account. Registered users can create a post, edit their post, edit their profile, delete a post and delete their profile. Group project/three person team. Java, JSPs, Servlets, MySQL, Maven.</p>
+                </div>
+                <div class="d-none d-sm-block text-center">
+                    <img class="small-img" src="img/CarLister.png">
+                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#carListerModal">
+                        Click for larger image
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="carListerModal" tabindex="-1" aria-labelledby="carListerModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="carListerModalLabel">CarLister Project Screenshot</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="lg-img" src="img/CarLister.png">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="darker">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="d-block">
+                    <h2>Text Adventure Console Game</h2>
+                    <p>The text adventure game is a retro style console game made in Java using the Scanner Class to obtain input from the user. This was a side project done with a partner.  Features: classes, subclasses, interfaces, object-oriented programming. Java.</p>
+                </div>
+                <div class="d-none d-sm-block text-center">
+                    <img class="small-img" src="img/txt-adventure.png">
+                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#textAdvModal">
+                        Click for larger image
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="textAdvModal" tabindex="-1" aria-labelledby="textAdvModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="textAdvModalLabel">Text Adventure Screenshot</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="lg-img" src="img/txt-adventure.png">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="d-flex justify-content-center align-items-center">
+
+            <div class="d-block">
                 <h2>Movie Project</h2>
                 <p>This was a pair programming project where we were tasked with creating a single page application that uses RESTful API requests to display a list of movies. Users can edit the title and rating and delete or add movies to the list. HTML, CSS, BOM, DOM, OMDB API, JavaScript, JSON, JQuery, Bootstrap.</p>
                 </div>
@@ -66,7 +133,7 @@
                 </div>
             </div>
         </section>
-        <section id="proj-b" class="weather-map">
+        <section id="proj-b" class="darker">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="d-block">
                     <h2>Weathermap Project</h2>
@@ -135,14 +202,19 @@
 
         <section id="technical-skills" class="pb-4 pt-4">
             <h2 class="text-center">Technical Skills</h2>
-            <div class="d-flex justify-content-sm-around justify-content-center technical-skills flex-wrap">
-                <div><i class="fab fa-html5"></i>HTML</div>
-                <div><i class="fab fa-css3-alt"></i>CSS</div>
-                <div><i class="fab fa-js-square"></i>JavaScript</div>
-                <div><i class="fab fa-bootstrap"></i>Bootstrap</div>
-                <div><i class="fab fa-java"></i>Java</div>
+            <div class="row">
+                <div class="d-flex justify-content-sm-around align-items-center technical-skills flex-wrap col-md-8">
+                    <div><i class="fab fa-html5"></i>HTML</div>
+                    <div><i class="fab fa-css3-alt"></i>CSS</div>
+                    <div><i class="fab fa-js-square"></i>JavaScript</div>
+                    <div><i class="fab fa-bootstrap"></i>Bootstrap</div>
+                    <div><i class="fab fa-java"></i>Java</div>
+                    <div class="d-flex align-items-center"><img class="spring-logo ml-2 mr-1 rounded" src="img/spring2.png">Spring</div>
+                </div>
+                <div class="d-flex justify-content-center col-md-4">
+                <img class="html-logos d-none d-md-block" src="img/HTML.png">
+                </div>
             </div>
-
         </section>
             <section id="contact" class="pb-4 pt-4">
                 <h2 class="text-center">☘️ Contact Me ☘️</h2>
@@ -153,7 +225,7 @@
             </section>
 
     <footer id="footer" class="footer d-flex justify-content-center align-items-center text-white small">
-        <p class="m-0">Last updated November 2021</p>
+        <p class="m-0">Last updated December 2021</p>
     </footer>
     </div>
 </div>

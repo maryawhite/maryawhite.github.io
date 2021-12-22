@@ -1,5 +1,7 @@
 body {
     font-family: 'Josefin Sans', sans-serif, 'Merriweather', serif;
+    background-color: #b0bec5;
+
 }
 
 #page-container {
@@ -30,6 +32,10 @@ body {
     color: white;
 }
 
+.spring-logo {
+    height: .9em;
+}
+
 .small-img {
     width: 250px;
 }
@@ -45,7 +51,7 @@ body {
 .jumbotron {
     background-color: #90a4ae;
     /*background-color: #b0bec5;*/
-    padding: 15px;
+    padding: 2.5em;
     color: darkblue;
     margin-bottom: 0;
 }
@@ -53,14 +59,14 @@ body {
 .projects {
     /*background-color: #cbcbcb;*/
     background-color: #b0bec5;
-    padding: 1em;
+    padding: 1.5em;
 }
 
-.weather-map, #technical-skills {
+.darker, #technical-skills {
     background-color: #90a4ae;
     /*background-color: #b0bec5;*/
     color: black;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .projects > h1 {
@@ -70,11 +76,15 @@ body {
 .about-me, #contact {
     background-color: darkblue;
     /*background-color: #607d8b;*/
-    color: white;
-    padding: 1em;
+    color: #b7c4cb;
+    padding: 1.5em;
     /*do not remove this padding*/
 }
 
 .technical-skills {
     font-size: 1.5em;
+}
+
+.html-logos {
+    height: 100%;
 }
