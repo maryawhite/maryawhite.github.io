@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merriweather&display=swap"
+          rel="stylesheet">
 
     <title>Mary A. White, Software Developer</title>
 </head>
@@ -21,33 +24,65 @@
                     <div id="headshot">
                         <img class="rounded-circle" src="img/MWhite_headshot.jpg">
                     </div>
-                    <h1 class="display-4">Mary A. White</h1>
-                    <p class="lead">Full Stack Software Developer</p>
+                    <h1 class="display-4 pt-2">Mary A. White</h1>
+                    <p class="lead">Software Developer</p>
+                    <a href="mailto:mary.a.white28@gmail.com"><i class="fas fa-envelope-open"></i></a> <a
+                        href="https://github.com/maryawhite"><i class="fab fa-github"></i></a> <a
+                        href="https://www.linkedin.com/in/marychindwhite/"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </header>
         <main>
             <section class="about-me">
-                <h1 class="text-center">About Me</h1>
-                <p class="pl-4, pr-4">Effective software developer with previous experience in higher education and a knack for optimizing processes. A passion for problem-solving and using technology to automate repetitive tasks and improve productivity led to my interest in web development. I look forward to combining my past work experience with my programming knowledge as a full stack web developer. </p>
+                <h1 class="text-center p-2">About Me</h1>
+                <p class="pl-4, pr-4">Effective software developer with previous experience in higher education and a
+                    knack for optimizing processes. A passion for problem-solving and using technology to automate
+                    repetitive tasks and improve productivity led to my interest in web development. I look forward to
+                    combining my past work experience with my programming knowledge as a full stack web developer. </p>
             </section>
         </main>
+        <section id="technical-skills" class="pb-4 pt-4">
+            <h1 class="text-center p-2">Technical Skills</h1>
+            <div class="row justify-content-center">
+                <div class="d-flex justify-content-center align-items-center technical-skills flex-wrap">
+                    <div class="p-3"><i class="fab fa-bootstrap"></i>Bootstrap</div>
+                    <div class="p-3" ><i class="fab fa-css3-alt"></i>CSS</div>
+                    <div class="p-3" ><i class="fab fa-html5"></i>HTML</div>
+                    <div class="p-3" ><i class="fab fa-java"></i>Java</div>
+                    <div class="p-3" ><i class="fab fa-js-square"></i>JavaScript</div>
+                    <div class="d-flex align-items-center p-3"><img class="spring-logo ml-2 mr-1 rounded"
+                                                                src="img/jquerylogo.png">JQuery
+                    </div>
+                    <div class="d-flex align-items-center p-3"><img class="spring-logo ml-2 mr-1 rounded"
+                                                                src="img/mysqllogo.png">MySQL
+                    </div>
+                    <div class="d-flex align-items-center p-3"><img class="spring-logo ml-2 mr-1 rounded"
+                                                                src="img/spring2.png">Spring Boot & Thymeleaf
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="projects"><h1 class="text-center mb-0">Projects</h1></section>
         <section class="projects">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="d-block">
                     <h2>Carlister Project</h2>
-                    <p>Carlister is similar to Craigslist or OfferUp and is a full stack Java application with CRUD functionality. Visitors can view ads and create an account. Registered users can create a post, edit their post, edit their profile, delete a post and delete their profile. Group project/three person team. Java, JSPs, Servlets, MySQL, Maven.</p>
+                    <p>Carlister is similar to Craigslist or OfferUp and is a full stack Java application with CRUD
+                        functionality. Visitors can view ads and create an account. Registered users can create a post,
+                        edit their post, edit their profile, delete a post and delete their profile. Group project/three
+                        person team. Java, JSPs, Servlets, MySQL, Maven. <a href="https://github.com/Adams-Leith-White-adlister/quasar-adlister">View the Github repo</a>
+                    </p>
                 </div>
-                <div class="d-none d-sm-block text-center">
+                <div class="d-none d-md-block text-center">
                     <img class="small-img" src="img/CarLister.png">
                     <button type="button" class="btn btn-link" data-toggle="modal" data-target="#carListerModal">
                         Click for larger image
                     </button>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="carListerModal" tabindex="-1" aria-labelledby="carListerModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
+                <div class="modal fade" id="carListerModal" tabindex="-1" aria-labelledby="carListerModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="carListerModalLabel">CarLister Project Screenshot</h5>
@@ -70,17 +105,20 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="d-block">
                     <h2>Text Adventure Console Game</h2>
-                    <p>The text adventure game is a retro style console game made in Java using the Scanner Class to obtain input from the user. This was a side project done with a partner.  Features: classes, subclasses, interfaces, object-oriented programming. Java.</p>
+                    <p>The text adventure game is a retro style console game made in Java using the Scanner Class to
+                        obtain input from the user. This was a side project done with a partner. Features: classes,
+                        subclasses, interfaces, object-oriented programming. Java. <a href="https://github.com/hw-text-adventure-game/console-game">View the Github repo</a></p>
                 </div>
-                <div class="d-none d-sm-block text-center">
+                <div class="d-none d-md-block text-center">
                     <img class="small-img" src="img/txt-adventure.png">
                     <button type="button" class="btn btn-link" data-toggle="modal" data-target="#textAdvModal">
                         Click for larger image
                     </button>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="textAdvModal" tabindex="-1" aria-labelledby="textAdvModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
+                <div class="modal fade" id="textAdvModal" tabindex="-1" aria-labelledby="textAdvModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="textAdvModalLabel">Text Adventure Screenshot</h5>
@@ -102,19 +140,23 @@
         <section class="projects">
             <div class="d-flex justify-content-center align-items-center">
 
-            <div class="d-block">
-                <h2>Movie Project</h2>
-                <p>This was a pair programming project where we were tasked with creating a single page application that uses RESTful API requests to display a list of movies. Users can edit the title and rating and delete or add movies to the list. HTML, CSS, BOM, DOM, OMDB API, JavaScript, JSON, JQuery, Bootstrap.</p>
+                <div class="d-block">
+                    <h2>Movie Project</h2>
+                    <p>This was a pair programming project where we were tasked with creating a single page application
+                        that uses RESTful API requests to display a list of movies. Users can edit the title and rating
+                        and delete or add movies to the list. HTML, CSS, BOM, DOM, OMDB API, JavaScript, JSON, JQuery,
+                        Bootstrap. <a href="https://github.com/orta-white-quasar-movie-app/orta-white-movie-app">View the Github repo</a></p>
                 </div>
-                <div class="d-none d-sm-block text-center">
-                <img class="small-img" src="img/movie-project-ss.png">
-                <button type="button" class="btn btn-link" data-toggle="modal" data-target="#movieModal">
-                    Click for larger image
-                </button>
+                <div class="d-none d-md-block text-center">
+                    <img class="small-img" src="img/movie-project-ss.png">
+                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#movieModal">
+                        Click for larger image
+                    </button>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="movieModal" tabindex="-1" aria-labelledby="movieModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
+                <div class="modal fade" id="movieModal" tabindex="-1" aria-labelledby="movieModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="movieModalLabel">Movie Project Screenshot</h5>
@@ -137,17 +179,21 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="d-block">
                     <h2>Weathermap Project</h2>
-                    <p>This was a solo project where I was tasked with creating a single page application that uses the OpenWeather API to display a five-day weather forecast for a selected location. Users can input a location or drag a marker on the map and the map will move to that location and update the weather forecast. Mapbox API, OpenWeather API, Javascript, HTML, CSS, JQuery.</p>
+                    <p>This was a solo project where I was tasked with creating a single page application that uses the
+                        OpenWeather API to display a five-day weather forecast for a selected location. Users can input
+                        a location or drag a marker on the map and the map will move to that location and update the
+                        weather forecast. Mapbox API, OpenWeather API, Javascript, HTML, CSS, JQuery. <a href="https://github.com/maryawhite/codeup-web-exercises/blob/main/js/weather_map.js">View the Github repo.</a> I also refactored this project with a slightly different style, <a href="https://github.com/maryawhite/weatherapp">github repo.</a></p>
                 </div>
-                <div class="d-none d-sm-block text-center">
+                <div class="d-none d-md-block text-center">
                     <img class="small-img" src="img/weathermap-project.png">
                     <button type="button" class="btn btn-link" data-toggle="modal" data-target="#weatherModal">
                         Click for larger image
                     </button>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="weatherModal" tabindex="-1" aria-labelledby="weatherModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
+                <div class="modal fade" id="weatherModal" tabindex="-1" aria-labelledby="weatherModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="weatherModalLabel">Weathermap Project Screenshot</h5>
@@ -170,17 +216,20 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="d-block">
                     <h2>Coffee Project</h2>
-                    <p>This was a pair programming project where we were tasked with creating a web application for a fictional coffee shop that allows users select a roast and type of coffee, search for coffees, and input a new coffee. Javascript, DOM manipulation, CSS, HTML, Bootstrap.</p>
-                    </div>
-                <div class="d-none d-sm-block text-center">
+                    <p>This was a pair programming project where we were tasked with creating a web application for a
+                        fictional coffee shop that allows users select a roast and type of coffee, search for coffees,
+                        and input a new coffee. Javascript, DOM manipulation, CSS, HTML, Bootstrap. <a href="https://github.com/foss-white-quasar/coffee-project">View the Github repo</a></p>
+                </div>
+                <div class="d-none d-md-block text-center">
                     <img class="small-img" src="img/coffee-project.png">
                     <button type="button" class="btn btn-link" data-toggle="modal" data-target="#coffeeModal">
                         Click for larger image
                     </button>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="coffeeModal" tabindex="-1" aria-labelledby="coffeeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
+                <div class="modal fade" id="coffeeModal" tabindex="-1" aria-labelledby="coffeeModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="coffeeModalLabel">Coffee Project Screenshot</h5>
@@ -198,39 +247,15 @@
                     </div>
                 </div>
             </div>
-            </section>
-
-        <section id="technical-skills" class="pb-4 pt-4">
-            <h2 class="text-center">Technical Skills</h2>
-            <div class="row">
-                <div class="d-flex justify-content-sm-around align-items-center technical-skills flex-wrap col-md-8">
-                    <div><i class="fab fa-html5"></i>HTML</div>
-                    <div><i class="fab fa-css3-alt"></i>CSS</div>
-                    <div><i class="fab fa-js-square"></i>JavaScript</div>
-                    <div><i class="fab fa-bootstrap"></i>Bootstrap</div>
-                    <div><i class="fab fa-java"></i>Java</div>
-                    <div class="d-flex align-items-center"><img class="spring-logo ml-2 mr-1 rounded" src="img/spring2.png">Spring</div>
-                </div>
-                <div class="d-flex justify-content-center col-md-4">
-                <img class="html-logos d-none d-md-block" src="img/HTML.png">
-                </div>
-            </div>
         </section>
-            <section id="contact" class="pb-4 pt-4">
-                <h2 class="text-center">☘️ Contact Me ☘️</h2>
-                <div class="d-flex justify-content-center">
-                    <p class="d-flex">mary.a.white28@gmail.com</p>
-                    <a href="https://github.com/maryawhite"><i class="fab fa-github"></i></a>  <a href="https://www.linkedin.com/in/marychindwhite/"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </section>
 
-    <footer id="footer" class="footer d-flex justify-content-center align-items-center text-white small">
-        <p class="m-0">Last updated December 2021</p>
-    </footer>
     </div>
 </div>
-<!--&#9752;-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </body>
 </html>

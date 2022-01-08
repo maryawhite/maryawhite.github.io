@@ -27,7 +27,7 @@ body {
     color: white;
 }
 
-.fab {
+.fab, .fas {
     padding: .3em;
     color: white;
 }
@@ -69,11 +69,11 @@ body {
     padding: 1.5em;
 }
 
-.projects > h1 {
-    text-decoration: underline;
-}
+/*.projects > h1 {*/
+/*    text-decoration: underline;*/
+/*}*/
 
-.about-me, #contact {
+.about-me {
     background-color: darkblue;
     /*background-color: #607d8b;*/
     color: #b7c4cb;
@@ -85,6 +85,19 @@ body {
     font-size: 1.5em;
 }
 
-.html-logos {
-    height: 100%;
+a:link {
+    color: darkblue;
 }
+
+a:visited {
+    color: #3c87cc;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active  {
+    color: #b7c4cb;
+}
+
