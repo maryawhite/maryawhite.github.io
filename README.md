@@ -1,4 +1,4 @@
 # maryawhite.github.io
 - https://maryawhite.github.io/
-- Full-Stack Web Development Student
-- JavaScript, HTML, CSS, Bootstrap, JQuery, AJAX, Java, Spring Boot, Thymeleaf, MySQL
+- Full-Stack Web Developer
+- Java, Spring Boot, Thymeleaf, MySQL, Bootstrap, CSS, HTML, JavaScript, JQuery 
