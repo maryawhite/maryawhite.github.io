@@ -37,7 +37,7 @@
         <main>
             <section class="about-me">
                 <h1 class="text-center p-2">About Me</h1>
-                <p class="pl-4, pr-4">Effective software developer with previous experience in higher education and a
+                <p class="pl-4, pr-4">Reliable software developer with previous experience in higher education and a
                     knack for optimizing processes. A passion for problem-solving and using technology to automate
                     repetitive tasks and improve productivity led to my interest in web development. I look forward to
                     combining my past work experience with my programming knowledge as a back-end developer.</p>
@@ -69,8 +69,7 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="d-block">
                     <h2><a href="https://share-project.site/homepage" target="blank">Share Capstone Project</a></h2>
-                    <p>Work in progress: Share is a full-stack Java application built with Java, Spring Boot, Thymeleaf, Bootstrap, CSS, HTML, Javascript, and MySQL. Share is an online
-                        marketplace that allows neighbors to lend and borrow items, send messages, and leave reviews, built by a 4-person team.<a href="https://github.com/Hayes-Maldonado-Rodney-White-Capstone" target="blank"> Github</a></p>
+                    <p>Share is an online marketplace that allows neighbors to lend and borrow items, send messages, and leave reviews. This is a full stack application built with Java, Spring Boot, Thymeleaf, Bootstrap, CSS, HTML, Javascript, and MySQL. I worked with 3 other developers on this project and participated in the full software design lifecycle of the project from the initial planning, trello board, and database design to deployment with Digital Ocean and dokku. My primary role was working on the back-end with models and controllers for the functionality to view, add, and remove items. I used the zippopotam zipcode API to autofill the user's city and state upon registering and Spring Boot's built-in file upload to allow user's to upload their profile picture and photo of the item. I also used Spring Boot's validation annotation to validate form submissions.<a href="https://github.com/Hayes-Maldonado-Rodney-White-Capstone" target="blank"> Github</a></p>
                 </div>
                 <div class="d-none d-md-block text-center">
                     <img class="small-img" src="img/share-catalog.png">
@@ -287,7 +286,40 @@
                 </div>
             </div>
         </section>
-
+        <section class="darker">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="d-block">
+                    <h2><a href="https://still-retreat-49447.herokuapp.com/" target="blank">Chatbot</a></h2>
+                    <p>This project is hosted on Heroku's free server and may take a moment to load. My chatbot uses Javascript and JQuery to get the user's input from the name field and displays an output based on their input. The joke button has an on click event handler that uses a fetch request to grab a random joke from a database housed on Glitch. </p>
+                </div>
+                <div class="d-none d-md-block text-center">
+                    <img class="small-img" src="img/chatbot.png">
+                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#chatbotModal">
+                        Click for larger image
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="chatbotModal" tabindex="-1" aria-labelledby="chatbotModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="chatbotModalLabel">Chatbot Screenshot</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="lg-img" src="img/chatbot.png">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
