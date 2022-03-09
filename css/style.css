@@ -105,3 +105,61 @@ a:active  {
     color: #b7c4cb;
 }
 
+.javapill {
+    background-color: #6666CC;
+}
+
+.mysqlpill {
+    background-color: #48D8BC;
+}
+
+.htmlpill {
+    background-color: #FF6600;
+}
+
+.csspill {
+    background-color: #054A91;
+}
+
+.javascriptpill {
+    background-color: #6d9ddd;
+
+}
+
+.springbootpill {
+    background-color: #23CE6B;
+}
+
+.bootstrappill {
+    background-color: #C97B84;
+}
+
+.thymeleafpill {
+    background-color: #FB8823;
+}
+
+.jquerypill {
+    background-color: #52050A;
+}
+
+.livepill {
+    background-color: #0F8B8D;
+}
+
+.frontendpill {
+    background-color: #5438DC;
+}
+
+.fullstackpill {
+    background-color: #830A48;
+}
+
+.backendpill {
+    background-color: #3772FF;
+}
+
+
+
+
+
+
